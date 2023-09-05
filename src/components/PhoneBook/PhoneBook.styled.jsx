@@ -9,11 +9,15 @@ align-items: center;
 border-radius: 12px;
 gap: 10px;
 `;
+export const FormContainer = styled.div`
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+`;
+
 
 export const LabelForm = styled.label`
-display: flex;
-flex-direction: column
-gap: 10px;
+margin-right: 20px;
 color: moccasin;
 `;
 
@@ -46,6 +50,7 @@ font-size: 16px;
 font-weight: 700;
 cursor: pointer;
 background-color: mediumvioletred;
+transition: all 250ms ease-in-out;
 &&:hover,
 &&:focus{
     background-color: lightcoral;
