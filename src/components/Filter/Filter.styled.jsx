@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const LabelFilter = styled.label`
 display: flex;
+text-align: center;
 flex-direction: column;
 color: moccasin;
 gap: 12px;

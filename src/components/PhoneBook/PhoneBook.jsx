@@ -4,7 +4,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import { toast } from 'react-hot-toast';
 import { addDataContacts } from "redux/Operations/operations";
 import { selectContacts } from "redux/Selectors/selectors";
-import { Button, Form, LabelForm, Input } from './PhoneBook.styled';
+import { Button, Form, FormContainer,LabelForm, Input } from './PhoneBook.styled';
 import { BiMessageAdd } from "react-icons/bi";
 
  function PhoneBook() {
@@ -36,6 +36,7 @@ import { BiMessageAdd } from "react-icons/bi";
     
         return (
             <Form onSubmit={handleSubmit}>
+                <FormContainer>
                 <LabelForm>
                     Name
                     <Input
@@ -58,6 +59,7 @@ import { BiMessageAdd } from "react-icons/bi";
                     // required
                     />
                 </LabelForm>
+                </FormContainer>
                 <Button type="submit">Add contact<BiMessageAdd/></Button>
             </Form>
         );
