@@ -10,11 +10,7 @@ import PhoneBook from './PhoneBook/PhoneBook';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
 
-// import Register from 'Pages/Register/Register';
-// import Login from 'Pages/Login/LoginPage';
-// import Home from 'Pages/Home/HomePage';
-
-  function App() {
+  export default function App() {
 
     const isLoading = useSelector(selectIsLoading);
     const error = useSelector(selectError);
@@ -22,9 +18,6 @@ import Filter from './Filter/Filter';
      return (
       <>
          <Container>
-           {/* <Register/> */}
-           {/* <Login/> */}
-           {/* <Home/> */}
           <h1>-Phonebook- </h1>
             <PhoneBook />  
           <h2>-Contacts-</h2>
@@ -40,9 +33,9 @@ import Filter from './Filter/Filter';
       </>
      );
 
-}
+};
 
-export default App;
+
 
 
 
