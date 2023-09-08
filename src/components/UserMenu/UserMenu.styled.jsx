@@ -5,7 +5,29 @@ display: flex;
 align-items: center;
 gap: 12px;
 `;
+export const UserMenuHi = styled.div`
+display: block;
+line-height: 0.5;
+margin-right: 20px;
+`;
 
 export const UserName = styled.p`
 font-weight: 700;
+color: mediumslateblue;
+`;
+
+export const UserEmail = styled.p`
+font-weight: 700;
+color: mediumslateblue;
+`;
+
+export const UserMenuBtn = styled.button`
+border-radius: 5px;
+padding: 5px;
+background-color: moccasin;
+color: darkslateblue;
+margin-right: 20px;
+outline: none;
+font-weight: 700;
+border-color: moccasin;
 `;

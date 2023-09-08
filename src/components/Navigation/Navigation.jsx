@@ -4,11 +4,18 @@ import styled from "styled-components";
 // import { StyledLink } from './Navigation.styled';
 
 const StyledLink = styled(NavLink)`
-  color: blue;
+color: blueviolet;
+background-color: moccasin;
+font-weight: 700;
+text-decoration: none;
+padding: 3px;
+border-radius: 3px;
+margin-left: 20px;
 
-  &.active {
-    color: orange;
-  }
+
+&.active {
+  color: orange;
+}
 `;
 
 export const Navigation = () => {
