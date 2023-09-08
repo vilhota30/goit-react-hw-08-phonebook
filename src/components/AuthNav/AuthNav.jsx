@@ -4,7 +4,14 @@
 
 
 const StyledLink = styled(NavLink)`
-  color: blue;
+  color: blueviolet;
+  background-color: moccasin;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 3px;
+  margin-right: 20px;
+
 
   &.active {
     color: orange;

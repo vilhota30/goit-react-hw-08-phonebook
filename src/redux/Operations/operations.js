@@ -3,7 +3,7 @@ import axios from "axios";
 import {toast} from "react-hot-toast";
 
 // axios.defaults.baseURL = 'https://64ede3ab1f8721827141f3ba.mockapi.io/api/v1/';
-axios.defaults.baseURL = 'https://connections-api.herokuapp.com/';
+// axios.defaults.baseURL = 'https://connections-api.herokuapp.com/';
 
 export const fetchDataContacts = createAsyncThunk(
     'contacts/fetchAll',
@@ -25,7 +25,7 @@ export const addDataContacts = createAsyncThunk(
         try {
             const response = await axios.post('/contacts', {
                 name: contactData.name,
-                phone: contactData.phonenumber,
+                number: contactData.number,
             });
         return response.data;
         } catch (error) {
@@ -56,7 +56,7 @@ export const editDataContacts = createAsyncThunk(
     try {
       const response = await axios.patch(`/contacts/${contactData.id}`, {
         name: contactData.name,
-        phonenumber: contactData.phonenumber,
+        number: contactData.number,
       });
       return response.data;
 

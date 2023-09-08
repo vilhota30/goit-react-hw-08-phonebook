@@ -63,7 +63,7 @@ export const ChangeForm = ({ name, number, onEditContact, children }) => {
 
 ChangeForm.propTypes = {
   name: PropTypes.string.isRequired,
-  number: PropTypes.string.isRequired,
+  number: PropTypes.string,
   children: PropTypes.node,
   onEditContact: PropTypes.func.isRequired,
 };

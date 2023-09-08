@@ -2,8 +2,12 @@ import styled from '@emotion/styled';
 
 export const AppBarHeader = styled.div`
 display: flex;
+background-color: darkmagenta;
+height: 50px;
+margin-top: 10px;
+border-radius: 10px;
 justify-content: space-between;
 align-items: center;
 margin-bottom: 16px;
-border-bottom: 3px solid blue;
+border-bottom: 3px solid mediumvioletred;
 `;

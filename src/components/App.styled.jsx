@@ -12,9 +12,7 @@ max-width: 800px;
 min-height: 400px;
 border-radius: 8px;
 background-color: darkslateblue;
+border: 4px solid darkmagenta;
 box-shadow: rgba(46, 0, 0, 0.5) 5px 13px 18px;
-&&:hover,
-&&:focus{
-    border: 5px solid darkmagenta;
 }
 `;
