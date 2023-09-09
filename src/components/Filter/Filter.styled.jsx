@@ -4,7 +4,9 @@ export const LabelFilter = styled.label`
 display: flex;
 text-align: center;
 flex-direction: column;
-color: moccasin;
+color: darkslateblue;
+font-weight: 600;
+font-size: 18px;
 gap: 12px;
  text-alighn: center;
  margin-left: auto;

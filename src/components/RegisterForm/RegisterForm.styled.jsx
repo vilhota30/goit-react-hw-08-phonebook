@@ -3,9 +3,10 @@ import styled from '@emotion/styled';
 export const RegisterWrapper = styled.div`
 display: flex;
 justify-content: center;
+height: 500px;
 padding: 50px;
 border-radius: 10px;
-background-color: blueviolet;
+// background-color: blueviolet;
 box-shadow: rgba(46, 0, 0, 0.5) 5px 13px 18px
 `;
 
