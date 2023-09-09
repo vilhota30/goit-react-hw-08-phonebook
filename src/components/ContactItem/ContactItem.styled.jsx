@@ -5,7 +5,7 @@ justify-content: center;
 align-items: center;
 gap: 12px;
 margin-right: 8px;
-color: darksalmon;
+color: blue;
 font-weight: 600;
 
 &:not(:last-child) {
@@ -42,17 +42,20 @@ export const ContactInfo = styled.div`
 
 export const ContactName = styled.p`
   display: flex;
+  color: darkslateblue;
   gap: 10px;
   max-width: 220px;
   width: 180px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 700;
 `;
 export const ContactTel = styled.p`
   display: flex;
+  color: darkslateblue;
   gap: 10px;
   max-width: 220px;
   width: 180px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 700;
 `;
 

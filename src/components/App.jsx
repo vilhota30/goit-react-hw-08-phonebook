@@ -9,6 +9,7 @@ import {Container} from "./App.styled";
 import PhoneBook from './PhoneBook/PhoneBook';
 import ContactList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
+import notebook from '../components/media/notebook-3820634_1280.jpg';
 
   export default function App() {
 
@@ -17,10 +18,10 @@ import Filter from './Filter/Filter';
 
      return (
       <>
-         <Container>
-          <h1>-Phonebook- </h1>
+         <Container style={{ backgroundImage: `url(${notebook})`, backgroundRepeat: "no-repeat", display: "flex", justifyContent: "center", height: "500px" }}>
+          <h1 style={{color: "chocolate"}}>-Phonebook-</h1>
             <PhoneBook />  
-          <h2>-Contacts-</h2>
+          <h2 style={{color: "chocolate"}}>-Contacts-</h2>
             <Filter />
             {isLoading && !error && <Loader/>}
             <ContactList/>

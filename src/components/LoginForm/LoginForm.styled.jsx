@@ -5,7 +5,6 @@ display: flex;
 justify-content: center;
 padding: 50px;
 border-radius: 10px;
-background-color: blueviolet;
 box-shadow: rgba(46, 0, 0, 0.5) 5px 13px 18px
 `;
 
@@ -16,9 +15,10 @@ width: 380px;
 export const LoginLabel = styled.label`
 margin-bottom: 10px;
 width: 20px;
-color: moccasin;
+color: darkslateblue;
 display: block;
-font-weight: 600;
+font-weight: 700;
+font-size: 18px;
 `;
 
 export const LoginInput = styled.input`

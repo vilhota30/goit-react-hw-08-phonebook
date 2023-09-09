@@ -18,7 +18,9 @@ margin-bottom: 20px;
 
 export const LabelForm = styled.label`
 margin-right: 20px;
-color: moccasin;
+font-weight: 600;
+font-size: 18px;
+color: darkslateblue;
 `;
 
 export const Input = styled.input`
