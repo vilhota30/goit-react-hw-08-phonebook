@@ -31,7 +31,7 @@ font-weight: 600;
 
 export const RegisterInput = styled.input`
 padding: 8px;
-border-radius: 3px;
+border-radius: 10px;
 border-color: blueviolet;
 outline: none;
 font-size: 16px;
@@ -39,7 +39,7 @@ color: lavender;
 font-weight: 600; 
 width: 280px;
 margin-left: 8px;
-background-color: mediumslateblue;
+background-color: darksalmon;
 &&:hover,
 &&:focus{
    border-color: darksalmon;;
@@ -52,7 +52,7 @@ margin-left: 30px;
 padding: 8px;
 min-width: 250px;
 color: moccasin;
-border-radius: 3px;
+border-radius: 10px;
 border-color: deeppink;
 outline: none;
 font-size: 16px;

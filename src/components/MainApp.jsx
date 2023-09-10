@@ -21,7 +21,7 @@ export const MainApp = () => {
     }, [dispatch]);
 
     return isRefreshing ? (
-        <b>Refreshing user</b>
+        <b style={{display: "flex", justifyContent: "center", color: "darkslateblue"}}>Refreshing user...</b>
     ) : (
     <Routes>
         <Route path="/" element={<Layout/>} >

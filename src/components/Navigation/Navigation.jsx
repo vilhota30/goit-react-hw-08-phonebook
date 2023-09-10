@@ -14,7 +14,8 @@ margin-left: 20px;
 
 
 &.active {
-  color: orange;
+  color: whitesmoke;
+  background-color: darksalmon;
 }
 `;
 
