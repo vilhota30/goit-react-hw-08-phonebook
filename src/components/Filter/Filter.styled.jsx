@@ -20,14 +20,14 @@ padding: 8px;
 border-radius: 3px;
 border-color: blueviolet;
 font-size: 16px;
-color: lavender;
+color: brown;
 font-weight: 600; 
 outline: none;
-background-color: mediumslateblue;
+background-color: moccasin;
 &&:hover,
 &&:focus{
     border-color: darksalmon;
-    background-color: blueviolet;;
+    background-color: darksalmon;
 }
 `;
 

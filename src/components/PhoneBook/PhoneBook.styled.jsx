@@ -29,15 +29,15 @@ border-radius: 3px;
 border-color: blueviolet;
 outline: none;
 font-size: 16px;
-color: lavender;
+color: brown;
 font-weight: 600; 
 width: 280px;
 margin-left: 8px;
-background-color: mediumslateblue;
+background-color: moccasin;
 &&:hover,
 &&:focus{
-   border-color: darksalmon;;
-   background-color: blueviolet;
+   border-color: darksalmon;
+   background-color: darksalmon;
 }
 `;
 

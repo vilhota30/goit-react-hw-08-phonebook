@@ -9,4 +9,5 @@ export const LoginTitle = styled.h2`
 font-weight: 700;
 font-zise: 24px;
 text-align: center;
+color: darkslateblue;
 `;

@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lightsteelblue;
+  background-color: moccasin;
   
 }
 
@@ -23,6 +23,7 @@ h1, h2 {
 a {
   color: darkblue;
   text-decoration: none;
+  border: 4px solid rgb(214, 168, 218);
   &&:hover,
   &&:focus {
     color: darkmagenta;
@@ -37,6 +38,6 @@ ul {
 }
 svg{
   font-size: 20px;
-  color: whitesmoke;
+  color: darkmagenta;
   margin-left: 5px;
 }

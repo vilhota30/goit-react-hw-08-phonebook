@@ -13,12 +13,12 @@ margin-right: 20px;
 
 export const UserName = styled.p`
 font-weight: 700;
-color: mediumslateblue;
+color: palevioletred;
 `;
 
 export const UserEmail = styled.p`
 font-weight: 700;
-color: mediumslateblue;
+color: palevioletred;
 `;
 
 export const UserMenuBtn = styled.button`
@@ -29,5 +29,10 @@ color: darkslateblue;
 margin-right: 20px;
 outline: none;
 font-weight: 700;
-border-color: moccasin;
+border: 4px solid mediumorchid;
+&&: hover,
+&&: focus {
+    color: whitesmoke;
+    background-color: darksalmon;
+}
 `;
